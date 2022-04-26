@@ -17,7 +17,7 @@
     # Handle Front Controller...
     RewriteCond %{REQUEST_FILENAME} !-d
     RewriteCond %{REQUEST_FILENAME} !-f
-    RewriteRule ^ server.php [L]
+    RewriteRule ^ index.php [L]
 </IfModule>
 <Files .env>
     Order allow,deny
